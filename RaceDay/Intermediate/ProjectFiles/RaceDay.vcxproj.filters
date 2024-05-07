@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RaceDay.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RaceDay.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RaceDayEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RaceDay">
+      <UniqueIdentifier>{41FD852A-E7D7-3B18-A359-6EB50D5BA511}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RaceDay\RaceDay.Build.cs">
+      <Filter>Source\RaceDay</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RaceDay\RaceDay.cpp">
+      <Filter>Source\RaceDay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RaceDay\RaceDay.h">
+      <Filter>Source\RaceDay</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
